@@ -45,7 +45,7 @@ void main()
                     break;
                     
                     // a's chain 
-            case 3: c == s[i++];
+            case 3: c = s[i++];
                     if(c == 'a')
                         state = 3;
                     else if(c == 'b')
@@ -55,7 +55,7 @@ void main()
                     break;
                     
                     
-            case 4: c == s[i++];
+            case 4: c = s[i++];
                     if(c == 'a')
                         state = 6;
                     else if(c =='b')
